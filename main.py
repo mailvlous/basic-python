@@ -1,9 +1,9 @@
+# import helper #or
+from helper import print_hello 
 
-# # function and assignment
-# def print_hello(name):
-#     print(f"hello {name}")
-    
-# print_hello("god")
+# function and assignment
+
+print_hello("Hello, World!")
 
 # def sum(a, b):
 #     return a + b
@@ -76,11 +76,11 @@
 #     print("The array you entered is:", array)
 
 
-n = int(input("Berapa banyak angka yang ingin dimasukkan? "))
-numbers = []
+# n = int(input("Berapa banyak angka yang ingin dimasukkan? "))
+# numbers = []
 
-for i in range(n):
-    num = int(input(f"Masukkan angka ke-{i+1}: "))
-    numbers.append(num)
+# for i in range(n):
+#     num = int(input(f"Masukkan angka ke-{i+1}: "))
+#     numbers.append(num)
 
-print(numbers)  # Output: [angka1, angka2, ...]
+# print(numbers)  # Output: [angka1, angka2, ...]
